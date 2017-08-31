@@ -1,0 +1,32 @@
+// Place all the styles related to the emails controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+li{
+list-style-type: none;
+}
+
+
+.container{
+	display: flex;
+	flex-direction: row;
+}
+
+.object{
+	width: 50%;
+	background-color: red;
+	
+	h4{
+		font-size: 20px;
+}}
+
+
+.body{
+
+	width: 50%;
+	background-color: blue;
+}
+
+.body h4 {
+	font-weight: 200;
+}

@@ -15,7 +15,8 @@ list-style-type: none;
 .object{
 	width: 50%;
 	background-color: red;
-	
+	padding: 10px;
+
 	h4{
 		font-size: 20px;
 }}
@@ -25,8 +26,13 @@ list-style-type: none;
 
 	width: 50%;
 	background-color: blue;
+
 }
 
 .body h4 {
 	font-weight: 200;
+}
+
+.body li{
+	display: none;
 }
